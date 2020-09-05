@@ -1,0 +1,10 @@
+1#include<stdio.h>
+2#include<stdlib.h>
+3
+4int main(){
+5    char a[1000]={0};
+6    gets(a);
+7    char *s;
+8    printf("%d\n",strtol(a,&s,2));
+9    return 0;
+10}
