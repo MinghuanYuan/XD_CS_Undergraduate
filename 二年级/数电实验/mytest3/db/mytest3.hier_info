@@ -1,0 +1,16 @@
+|mytest3
+q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clrn => inst.ACLR
+clrn => inst3.ACLR
+clrn => inst6.ACLR
+clrn => inst8.ACLR
+clock => inst.CLK
+prn => inst.PRESET
+prn => inst3.PRESET
+prn => inst6.PRESET
+prn => inst8.PRESET
+q1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+q2 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+q3 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
