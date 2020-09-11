@@ -1,0 +1,4 @@
+102	bbb	21	Salesman	0	2000
+103	ccc	22	Manager	0	10
+104	ddd	23	SalesManager	0	3000	20
+105	eee	24	Manager	0	20
